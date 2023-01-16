@@ -1,16 +1,144 @@
 {
-  "posts":[
+  "symbols": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "symbol": "SNAP",
+      "name": "Snap Inc.",
+      "id": 1,
+	  "volume": 16051037,
+	  "changePercentage" : 0,
+	  "change": 0.1600,
+	  "price": 9.8000,
+	  "avgVolume": 10,
+	  "marketCap": 53
+    },
+    {
+      "symbol": "TWTR",
+      "name": "Twitter, Inc.",
+      "id": 2,
+	  "volume": 0,
+	  "changePercentage" : 0,
+	  "change": 0,
+	  "price": 53.7000,
+	  "avgVolume": 33,
+	  "marketCap": 53
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "id": 3,
+	  "volume": 57809719,
+	  "changePercentage" : 1.0119,
+	  "change": 1.3500,
+	  "price": 134.7600,
+	  "avgVolume": 213,
+	  "marketCap": 298
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "id": 4,
+	  "volume": 21333265,
+	  "changePercentage" : 0.3019,
+	  "change": 0.7200,
+	  "price": 239.2300,
+	  "avgVolume": 180,
+	  "marketCap": 200
+    },
+    {
+      "symbol": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "id": 5,
+	  "volume": 12649385,
+	  "changePercentage" : -0.2449,
+	  "change": -0.1200,
+	  "price": 48.8800,
+	  "avgVolume": 150,
+	  "marketCap": 100
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "id": 6,
+	  "volume": 44728706,
+	  "changePercentage" : 2.3499,
+	  "change": 3.8800,
+	  "price": 168.9900,
+	  "avgVolume": 135,
+	  "marketCap": 110
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "id": 7,
+	  "volume": 45757358,
+	  "changePercentage" : 0.2825,
+	  "change": 0.2000,
+	  "price": 71.0000,
+	  "avgVolume": 90,
+	  "marketCap": 143
+    },
+    {
+      "symbol": "FB",
+      "name": "Facebook Inc.",
+      "id": 8,
+	  "volume": 48725111,
+	  "changePercentage" : 1.15,
+	  "change": 2.86700,
+	  "price": 79.1,
+	  "avgVolume": 1567,
+	  "marketCap": 755
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet A",
+      "id": 9,
+	  "volume": 26329212,
+	  "changePercentage" : 1.0864,
+	  "change": 0.9900,
+	  "price": 92.1200,
+	  "avgVolume": 77,
+	  "marketCap": 456
+    },
+    {
+      "symbol": "EA",
+      "name": "Electronic Arts Inc.",
+      "id": 10,
+	  "volume": 1469453,
+	  "changePercentage" : -0.7594,
+	  "change": -0.9600,
+	  "price": 168.9900,
+	  "avgVolume": 267,
+	  "marketCap": 99
     }
   ],
-  "comments" : [
+  "favorites": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "symbolId": 4,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "symbolId": 2,
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "clara@example.com",
+      "password": "$2a$10$wG975yck.k1WHfAbj.h6FuiT7fzIz0aH4fWsNK2jXESGwEpBlFSw6",
+      "firstName": "Clara",
+      "lastName": "Example",
+      "photoUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+      "id": 1
+    },
+    {
+      "email": "upskillreact@gmail.com",
+      "password": "$2a$10$7nur7Rns8bCktYTz3jBVcueiKO4DHaQKEu9buB3zq5j4HM7BSlHXG",
+      "firstName": "Zoran",
+      "lastName": "Traychev",
+      "photoUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+      "id": 2
     }
   ]
 }
